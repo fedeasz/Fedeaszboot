@@ -3,11 +3,95 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" href="../css/estilo.css">
-	<title>Document</title>
+	<title>RECETARIO</title>
 </head>
-<body>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-	
-</body>
+<body class="gradient">
+	<div class="container-fluid">
+		<header class="row">
+			<div class="col-12 col-lg-12">
+				<nav class="navbar navbar-expand-lg navbar-light">
+				  <div class="container-fluid">
+				    <a class="navbar-brand" href="#"><img src="../assets/img/logo page.jpg"></a>
+				    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				      <span class="navbar-toggler-icon"></span>
+				    </button>
+				    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				        <li class="nav-item">
+				          <a class="nav-link active translateY" aria-current="page" href="../index.html">HOME</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link active translateY" aria-current="page" href="empresa.html">EMPRESA</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link active translateY" aria-current="page" href="producto.html">PRODUCTO</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link active translateY" href="contacto.html">CONTACTO</a>
+				        </li>
+				        <li class="nav-item dropdown">
+				          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				            Otros
+				          </a>
+				          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+				            <li><a class="dropdown-item translateY" href="blog.html">BLOG</a></li>
+				            <li><a class="dropdown-item translateY" href="#">RECETARIO</a></li>
+				            <li><hr class="dropdown-divider"></li>
+				          </ul>
+				        </li>
+				      </ul>
+				      <form class="d-flex">
+				        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+				        <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+				      </form>
+				    </div>
+				  </div>
+				</nav>
+			</div>
+		</header>
+		<div class="row">
+			<div class="col-12 col-lg-12">
+				<h1 class="centrado">RECETARIO</h1>
+			</div>
+			<div class="col-12 col-lg-12">
+				<h2 class="centrado">POLLO A LA MIEL</h2>
+			</div>
+				<div class="col-12 col-lg-12">
+					<div data-aos="fade-up" class="news" data-aos-duration="3000">
+						<ul>
+							<li>1 kg de pollo troceado</li>
+							<li>Media cebolla</li>
+							<li>1 rama de tomillo o romero</li>
+							<li>3 cucharadas soperas de miel</li>
+							<li>El zumo de medio limón</li>
+							<li>Aceite de oliva virgen extra</li>
+							<li>Sal y pimienta negra recién molida (al gusto)</li>
+							<li>Una hoja de laurel, un par de golpes de clavo de olor, canela (opcional) y nuez moscada</li>
+							<li>Agua (la que necesite dependiendo de como queramos la salsa)</li>
+						</ul>
+						<ol>
+							<li>Dejamos marinar una hora el pollo salpimentado con el zumo de limón.</li>
+							<li>Sellamos las presas de pollo en una cazuela al fuego con la hoja de laurel. Cuando estén doradas las retiramos y reservamos.</li>
+							<li>En esa misma grasa rehogamos a fuego lento la cebolla picada y cuando empiece a dorar volvemos a añadir el pollo. Ponemos la miel, las hierbas y las especias y revolvemos para que se mezclen los sabores. Añadimos agua y dejamos que el guiso se vaya haciendo a fuego lento rectificando el nivel de agua cuando sea necesario.</li>
+							<li>Sacamos el pollo y si lo prefieres se pasa la salsa por la batidora con una cucharadita de mantequilla para que le de brillo. Se sirve al momento con guarniciones</li>
+						</ol>	
+					</div>			
+				</div>
+			<div class="row">
+				<div class="col-12 col-lg-6">
+					<footer class="row">
+					<div class="col 12 col-lg-4"><img src="../assets/img/logo page.jpg" alt="logo"></div>
+					<div class="col 12 col-lg-4">RRSS</div>
+					<div class="col 12 col-lg-4">CONTACTO</div>
+				</footer>
+		</div>
+	</div>	
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+		  AOS.init();
+		</script>
+</body>	
 </html>

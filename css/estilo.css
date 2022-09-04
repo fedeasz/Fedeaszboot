@@ -2,3 +2,8 @@
 	text-align: center;
 }
 .gradient{background: -webkit-linear-gradient(orange, pink);}
+.translateY{ transition: all 1s;
+}
+.translateY:hover{
+	transform: translateY(-20px);
+}
