@@ -7,3 +7,19 @@
 .translateY:hover{
 	transform: translateY(-20px);
 }
+.primergrid{
+	display: grid;
+	grid-template-columns: 100px 50px 50px 50px;
+	grid-template-rows: 10px 10px 10px 10px;
+}
+.borde0{
+  border-style: solid;
+}
+.centro{
+	justify-content: center;
+}
+.G1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
